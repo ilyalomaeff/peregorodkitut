@@ -28,14 +28,14 @@
 }
 @font-face {
   font-family: "ProximaNova";
-  src: url("fonts/proximanova_regular.eot");
-  src: url("fonts/proximanova_regular.eot") format("embedded-opentype"), url("fonts/proximanova_regular.woff2") format("woff2"), url("fonts/proximanova_regular.woff") format("woff"), url("fonts/proximanova_regular.ttf") format("truetype"), url("fonts/proximanova_regular.svg#proximanova_regular") format("svg");
+  src: url("../fonts/proximanova/proximanova_regular.eot");
+  src: url("../fonts/proximanova/proximanova_regular.eot") format("embedded-opentype"), url("../fonts/proximanova/proximanova_regular.woff2") format("woff2"), url("../fonts/proximanova/proximanova_regular.woff") format("woff"), url("../fonts/proximanova/proximanova_regular.ttf") format("truetype"), url("../fonts/proximanova/proximanova_regular.svg#proximanova_regular") format("svg");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: url("../fonts/proxima_nova_extrabold_italic.eot");
+  src: url("../fonts/proximanova/proxima_nova_extrabold_italic.eot");
   /* IE 9 Compatibility Mode */
   src: url("../fonts/proximanova/proxima_nova_extrabold_italic.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova/proxima_nova_extrabold_italic.woff2") format("woff2"), url("../fonts/proximanova/proxima_nova_extrabold_italic.woff") format("woff"), url("../fonts/proximanova/proxima_nova_extrabold_italic.ttf") format("truetype"), url("../fonts/proximanova/proxima_nova_extrabold_italic.svg#proxima_nova_extrabold_italic") format("svg");
   /* Chrome < 4, Legacy iOS */
@@ -1893,6 +1893,16 @@ textarea {
   }
 }
 @media screen and (max-width: 1676px) {
+  .top-header-buttons {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1548px) {
+  .header-search-block {
+    margin-left: -25px;
+  }
+}
+@media screen and (max-width: 1490px) {
   .top-header .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2636,6 +2646,24 @@ textarea {
   }
 }
 @media screen and (max-width: 400px) {
+  .burger {
+    right: 10px;
+  }
+
+  .top-header-buttons__bigbuttons {
+    margin-left: 35px;
+  }
+
+  .header-search-block {
+    position: absolute;
+    top: -2px;
+    left: -5px;
+  }
+
+  .top-header-buttons__search {
+    margin-left: 20px;
+  }
+
   .doors-button-ad {
     padding-top: 6px !important;
   }
